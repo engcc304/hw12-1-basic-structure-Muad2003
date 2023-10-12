@@ -73,14 +73,14 @@ int main() {
     scanf ( "%f",&B.Score ) ;
 
     // แสดงผล
-    printf ( "--| Person A Information |--\n" ) ;
+    printf ( "\n--| Person A Information |--\n" ) ;
     printf ( "Name : %s (%c)\n", A.Name , A.Sex ) ;
-    printf ( "%d years old\n", A.Age ) ;
+    printf ( "Age : %d years old\n", A.Age ) ;
     printf ( "Score : %.2f points\n", A.Score ) ;
 
     printf ( "--| Person B Information |--\n" ) ;
     printf ( "Name : %s (%c)\n", B.Name , B.Sex ) ;
-    printf ( "%d years old\n",B.Age ) ;
+    printf ( "Age : %d years old\n",B.Age ) ;
     printf ( "Score : %.2f points", B.Score ) ;
     return 0 ;
 } // end main
